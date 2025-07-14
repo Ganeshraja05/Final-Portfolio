@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Instagram, Phone } from 'lucide-react';
 import { useScrollAnimation, useIntersectionObserver } from '../hooks/useScrollAnimation';
-import pic12 from '../pic12.jpg';
+import pic1 from '../pic1.jpg';
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
   const scrollY = useScrollAnimation();
